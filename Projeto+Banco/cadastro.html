@@ -1,0 +1,77 @@
+<!DOCTYPE html
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		body{
+			margin: 0;
+			padding: 0;
+			font-family: sans-serif;
+		}
+
+		.caixalogin{
+			width: 500px;
+			height: 500px;
+			background-color: rgba(0,0,255,0.2);
+			color: black;
+			top: 50%;
+			left: 50%;
+			position: absolute;
+			transform: translate(-50%,-50%);
+			box-sizing: border-box;
+			padding: 70px 30px;
+			border-radius: 10px;
+		}
+
+
+
+		.cx{
+			border: none;
+			height: 30px;
+			width: 220px;
+			padding-left: 10px;
+			border-radius: 10px;
+			border: 1px solid black;
+		}
+
+		a{
+			text-decoration: none;
+		}
+
+		h2{
+			margin-top: -20px;
+			padding-bottom: 40px;
+		}
+
+		#cadastrar {
+			height: 25px;
+			width: 90px;
+			border: 1px solid black;
+			border-radius: 10px;
+			background-color: white;
+		}
+
+		#cadastrar:hover{
+			cursor: pointer;
+			background-color: #0101DF;
+			color: white;
+		}
+	</style>
+</head>
+<body>
+	<div class="caixalogin">
+	<center> <h2> Cadastro</h2> </center>	
+
+<form method="POST" action="cadastro.php">
+<!-- bxzzxnx  -->
+<center>
+		<input class="cx" type="text" name="login" id="login" placeholder="Digite seu login..."><br> <br>
+		<input class="cx" type="password" name="senha" id="senha" placeholder="Digite sua senha..."><br><br><br>
+		<input class="cx" type="submit" value="Cadastrar" id="cadastrar" name="cadastrar">
+</center>
+</form>
+
+	</div>
+</body>
+</html>
